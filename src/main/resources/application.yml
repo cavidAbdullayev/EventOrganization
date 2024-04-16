@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: EventOrganization
+  datasource:
+    username: root
+    password: e9fx8ud1zegr
+    url: jdbc:mysql://localhost:3306/event_organization
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: cavidabdullayevv20@gmail.com
+    password: iysn qafe pcxh gqsh
+    default-encoding: UTF-8
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
